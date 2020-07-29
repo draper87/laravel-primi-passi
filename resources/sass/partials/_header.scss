@@ -1,0 +1,44 @@
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  .logo {
+    flex-basis: 15%;
+  }
+  .menu{
+    flex-basis: 60%;
+    padding: 10px 20px;
+    li {
+      margin: 0 20px;
+    }
+    li:first-child::after {
+      display: block;
+      content: "";
+      height: 2px;
+      background-color: #61ce4e;
+      width: 100%;
+      margin: 10px auto 0px auto;
+    }
+    li:hover::after  {
+      display: block;
+      content: "";
+      height: 2px;
+      background-color: #61ce4e;
+      width: 100%;
+      margin: 10px auto 0px auto;
+    }
+  }
+  .join {
+    margin-bottom: 10px;
+    background-color: #61ce4e;
+    padding: 10px 20px;
+    border-radius: 5px;
+    a {
+      color: white;
+    }
+  }
+  ul {
+    display: flex;
+  }
+}

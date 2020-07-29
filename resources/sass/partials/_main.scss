@@ -1,0 +1,30 @@
+.container {
+  padding: 70px 0;
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .testo {
+    color: #1b3c59;
+    flex-basis: 70%;
+    h2 {
+      font-size: 52px;
+      margin: 20px 0;
+    }
+    p {
+      font-weight: bold;
+      font-size: 26px;
+      margin: 20px 0;
+    }
+    ul li {
+      list-style: square;
+      margin-left: 20px;
+    }
+  }
+}
+
+.container-privacy {
+  width: 70%;
+  margin: 0 auto;
+}

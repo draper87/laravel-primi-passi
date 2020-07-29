@@ -4,7 +4,7 @@
   </ul>
 
   <ul class="menu">
-    <li><a href="#">HOME</a></li>
+    <li><a href="{{ route('homepage') }}">HOME</a></li>
     <li><a href="#">CORSO</a></li>
     <li><a href="#">DOPO IL CORSO</a></li>
     <li><a href="#">LEZIONE GRATUITA</a></li>

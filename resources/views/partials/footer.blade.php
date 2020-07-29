@@ -11,7 +11,7 @@
       <ul>
         <li><a href="#">Lezione gratuita</a></li>
         <li><a href="#">Domande frequenti</a></li>
-        <li><a href="#">Privacy policy</a></li>
+        <li><a href="{{ route('privacy') }}">Privacy policy</a></li>
         <li><a href="#">Lavora con noi</a></li>
       </ul>
     </div>

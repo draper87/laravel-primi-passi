@@ -10,7 +10,7 @@
     <div class="menu-footer">
       <ul>
         <li><a href="#">Lezione gratuita</a></li>
-        <li><a href="#">Domande frequenti</a></li>
+        <li><a href="{{ route('faq') }}">Domande frequenti</a></li>
         <li><a href="{{ route('privacy') }}">Privacy policy</a></li>
         <li><a href="#">Lavora con noi</a></li>
       </ul>
@@ -18,3 +18,5 @@
   </div>
 
 </footer>
+
+<script src="{{ asset('js/app.js') }}"></script>

@@ -115,6 +115,69 @@ header ul {
   padding: 15px 0;
 }
 
+.intro {
+  width: 70%;
+  margin: 0 auto;
+  color: #1b3c59;
+  padding: 70px 0;
+}
+
+.intro h3 {
+  font-size: 32px;
+  padding: 20px 0;
+}
+
+.intro p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.faq {
+  display: flex;
+  border-bottom: 1px solid white;
+}
+
+.faq h4 {
+  font-size: 28px;
+}
+
+.faq h5 {
+  font-size: 24px;
+  display: inline;
+}
+
+.faq span {
+  float: right;
+  cursor: pointer;
+}
+
+.faq .first {
+  background-color: #e8ebf1;
+  color: #1b3c59;
+}
+
+.faq .second {
+  background-color: #1b3c59;
+  color: white;
+}
+
+.faq .box {
+  padding: 50px;
+  flex-basis: 50%;
+}
+
+.faq .box .single-faq {
+  padding: 30px 0px;
+}
+
+.faq .hide {
+  display: none;
+}
+
+.faq .single-faq {
+  cursor: pointer;
+}
+
 footer {
   background-color: #1b3c59;
   height: 300px;

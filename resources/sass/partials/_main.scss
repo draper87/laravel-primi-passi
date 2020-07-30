@@ -37,3 +37,56 @@
     padding: 15px 0;
   }
 }
+
+.intro {
+  width: 70%;
+  margin: 0 auto;
+  color: #1b3c59;
+  padding: 70px 0;
+  h3 {
+    font-size: 32px;
+    padding: 20px 0;
+  }
+  p {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+}
+
+.faq {
+  display: flex;
+  // margin-bottom: 40px;
+  border-bottom: 1px solid white;
+  h4 {
+    font-size: 28px;
+  }
+  h5 {
+    font-size: 24px;
+    display: inline;
+  }
+  span {
+    float: right;
+    cursor: pointer;
+  }
+  .first {
+    background-color: #e8ebf1;
+    color: #1b3c59;
+  }
+  .second {
+    background-color: #1b3c59;
+    color: white;
+  }
+  .box {
+    padding: 50px;
+    flex-basis: 50%;
+    .single-faq {
+      padding: 30px 0px;
+    }
+  }
+  .hide {
+    display: none;
+  }
+  .single-faq {
+    cursor: pointer;
+  }
+}
